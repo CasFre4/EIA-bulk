@@ -45,6 +45,8 @@ TABLENAME=db_tablename_here
 ```
 ### Getting dataframe
 ``` python
+from eia_bulk import EIABulk as ebulk
+
 eia = ebulk(write2db=False, route='electricity/rto/fuel-type-data', frequency='hourly', facet_types = ('respondent', 'US48'), data_types='value', override=True, verbose=2, multiplier=1/5)
 for item in eia.collect_months_data(2019, [1,2]):
     for i in item:
@@ -58,6 +60,7 @@ for item in eia.collect_years_data(start_year=2019, end_year=2020):
 ```
 ### Writing to database
 ```python
+from eia_bulk import EIABulk as ebulk
 eia = ebulk(write2db=True, route='electricity/rto/fuel-type-data', frequency='hourly', facet_types = ('respondent', 'US48'), data_types='value', override=True, verbose=2, multiplier=1/5)
 for item in eia.collect_months_data(2019, [1,2]):
     for i in item:
