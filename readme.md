@@ -50,21 +50,25 @@ from eia_bulk import EIABulk as ebulk
 eia = ebulk(write2db=False, route='electricity/rto/fuel-type-data', frequency='hourly', facet_types = ('respondent', 'US48'), data_types='value', override=True, verbose=2, multiplier=1/5)
 for item in eia.collect_months_data(2019, [1,2]):
     for i in item:
-        print(i.head(25).to_string())
+        print(i.head(25).to_string()) # i is a DataFrame
 print('\n\n\n\n\n')
 eia = ebulk(write2db=False, route='electricity/operating-generator-capacity', facet_types=[('balancing_authority_code', 'CPLE'),('balancing_authority_code', 'AEC')], data_types=['nameplate-capacity-mw'], override=True, verbose=0, multiplier=4)
 
 for item in eia.collect_years_data(start_year=2019, end_year=2020):
     for i in item:
-        print(i.head(25).to_string())
+        print(i.head(25).to_string()) # i is a DataFrame
 ```
 ### Writing to database
 ```python
 from eia_bulk import EIABulk as ebulk
+
 eia = ebulk(write2db=True, route='electricity/rto/fuel-type-data', frequency='hourly', facet_types = ('respondent', 'US48'), data_types='value', override=True, verbose=2, multiplier=1/5)
-for item in eia.collect_months_data(2019, [1,2]):
-    for i in item:
-        print(i.head(25).to_string())
+eia.collect_months_data(2019, [1,2]):
+
+eia = ebulk(write2db=False, route='electricity/operating-generator-capacity', facet_types=[('balancing_authority_code', 'CPLE'),('balancing_authority_code', 'AEC')], data_types=['nameplate-capacity-mw'], override=True, verbose=0, multiplier=4)
+
+eia.collect_years_data(start_year=2019, end_year=2020):
+   
 ```
 # Key Instance Variables
 
