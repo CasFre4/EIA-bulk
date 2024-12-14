@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EIA-bulk"
+version = "0.1.0"
+description = "EIA Bulk Data Collection package."
+authors = [
+    {name = "Martin Castro", email = "martincastrc@.com"}
+]
+dependencies = [
+    "pandas==2.2.3",
+    "python-dotenv==1.0.1",
+    "python_dateutil==2.9.0.post0",
+    "Requests==2.32.3",
+    "SQLAlchemy==2.0.36",
+    "tenacity==9.0.0"
+]
+python-version = ">=3.7"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
