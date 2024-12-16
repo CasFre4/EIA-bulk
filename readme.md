@@ -890,7 +890,6 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>period</th>
       <th>stateid</th>
       <th>stateName</th>
@@ -916,280 +915,15 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>commercial-non-chp</td>
-      <td>Commercial Non-CHP</td>
-      <td>12374</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>10181</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>GEN1</td>
-      <td>Conventional Hydroelectric</td>
-      <td>WAT</td>
-      <td>Water</td>
-      <td>HY</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>SB</td>
-      <td>Standby/Backup: available for service but not normally used</td>
-      <td>.8</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>commercial-non-chp</td>
-      <td>Commercial Non-CHP</td>
-      <td>12374</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>10181</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>GEN2</td>
-      <td>Conventional Hydroelectric</td>
-      <td>WAT</td>
-      <td>Water</td>
-      <td>HY</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>.8</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>commercial-non-chp</td>
-      <td>Commercial Non-CHP</td>
-      <td>12374</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>10181</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>GEN3</td>
-      <td>Conventional Hydroelectric</td>
-      <td>WAT</td>
-      <td>Water</td>
-      <td>HY</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>.8</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2019-04</td>
+      <td>2019-02</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>ipp-non-chp</td>
       <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN1</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN2</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN3</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN4</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN5</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN6</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61494</td>
-      <td>Radian Generation</td>
-      <td>62168</td>
-      <td>Church Road Solar LLC</td>
-      <td>CHU01</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>5</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61494</td>
-      <td>Radian Generation</td>
-      <td>62167</td>
-      <td>County Home Solar LLC</td>
-      <td>COU01</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>7.5</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>58325</td>
-      <td>New Bern Farm LLC</td>
-      <td>58339</td>
-      <td>New Bern Farm</td>
+      <td>58921</td>
+      <td>Bailey Farm LLC</td>
+      <td>59127</td>
+      <td>Bailey Farm LLC</td>
       <td>1</td>
       <td>Solar Photovoltaic</td>
       <td>SUN</td>
@@ -1204,41 +938,85 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>MW</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>2019-04</td>
+      <td>2019-01</td>
       <td>NC</td>
       <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61528</td>
-      <td>Bayboro Solar Farm</td>
-      <td>GEN1</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
+      <td>industrial-chp</td>
+      <td>Industrial CHP</td>
+      <td>58536</td>
+      <td>Smithfield Packaged Meats Corp</td>
+      <td>58575</td>
+      <td>Smithfield Packaged Meats Corp.</td>
+      <td>4</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
       <td>CPLE</td>
       <td>Duke Energy Progress East</td>
       <td>OP</td>
       <td>Operating</td>
-      <td>5</td>
+      <td>2.3</td>
       <td>None</td>
       <td>MW</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>2019-04</td>
+      <td>2019-01</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>ipp-chp</td>
+      <td>IPP CHP</td>
+      <td>18065</td>
+      <td>Smithfield Packaged Meats Corp.</td>
+      <td>56035</td>
+      <td>Smithfield Packaged Meats Corp.</td>
+      <td>1</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.4</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-01</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>ipp-chp</td>
+      <td>IPP CHP</td>
+      <td>18065</td>
+      <td>Smithfield Packaged Meats Corp.</td>
+      <td>56035</td>
+      <td>Smithfield Packaged Meats Corp.</td>
+      <td>2</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.4</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-01</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>ipp-non-chp</td>
       <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61351</td>
-      <td>Bear Creek Solar</td>
-      <td>GEN1</td>
+      <td>58927</td>
+      <td>Snow Hill Solar 2 LLC</td>
+      <td>59106</td>
+      <td>Snow Hill Solar 2 LLC</td>
+      <td>1</td>
       <td>Solar Photovoltaic</td>
       <td>SUN</td>
       <td>Solar</td>
@@ -1252,176 +1030,260 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>MW</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>2019-04</td>
+      <td>2019-05</td>
       <td>NC</td>
       <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61561</td>
-      <td>Bladen Solar</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN2</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN3</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN4</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN5</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN6</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN7</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN8</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN9</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN10</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN11</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-04</td>
+      <td>SC</td>
+      <td>South Carolina</td>
+      <td>industrial-chp</td>
+      <td>Industrial CHP</td>
+      <td>50006</td>
+      <td>Invista</td>
+      <td>10795</td>
+      <td>Camden South Carolina</td>
       <td>GEN1</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
+      <td>Natural Gas Steam Turbine</td>
+      <td>NG</td>
+      <td>Natural Gas</td>
+      <td>ST</td>
       <td>CPLE</td>
       <td>Duke Energy Progress East</td>
       <td>OP</td>
       <td>Operating</td>
-      <td>50</td>
+      <td>5.5</td>
       <td>None</td>
       <td>MW</td>
     </tr>
     <tr>
-      <th>15</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61283</td>
-      <td>Bladenboro Solar, LLC</td>
-      <td>GEN1</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>4.8</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61352</td>
-      <td>Bondi Solar</td>
-      <td>GEN1</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>5</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>58807</td>
-      <td>Boseman Solar Center LLC</td>
-      <td>BSC1</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>5</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61693</td>
-      <td>Buckleberry Solar</td>
-      <td>GEN</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>52.1</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>59673</td>
-      <td>Choco Solar LLC</td>
-      <td>59899</td>
-      <td>Choco Solar, LLC</td>
-      <td>CHOCO</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>5</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>58819</td>
-      <td>Graham Solar Center LLC</td>
-      <td>58957</td>
-      <td>Graham Solar Center LLC</td>
-      <td>GRAH</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>4.8</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>2019-01</td>
+      <td>2019-02</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>industrial-chp</td>
@@ -1444,8 +1306,7 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>MW</td>
     </tr>
     <tr>
-      <th>22</th>
-      <td>2019-01</td>
+      <td>2019-02</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>industrial-chp</td>
@@ -1468,8 +1329,7 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>MW</td>
     </tr>
     <tr>
-      <th>23</th>
-      <td>2019-01</td>
+      <td>2019-02</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>industrial-chp</td>
@@ -1492,8 +1352,7 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>MW</td>
     </tr>
     <tr>
-      <th>24</th>
-      <td>2019-01</td>
+      <td>2019-02</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>industrial-chp</td>
@@ -1515,9 +1374,123 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>None</td>
       <td>MW</td>
     </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN12</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN13</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN14</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN15</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN16</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
   </tbody>
 </table>
-
 </details>
 
 ### Writing to database
@@ -1793,7 +1766,6 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>period</th>
       <th>stateid</th>
       <th>stateName</th>
@@ -1819,280 +1791,15 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>commercial-non-chp</td>
-      <td>Commercial Non-CHP</td>
-      <td>12374</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>10181</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>GEN1</td>
-      <td>Conventional Hydroelectric</td>
-      <td>WAT</td>
-      <td>Water</td>
-      <td>HY</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>SB</td>
-      <td>Standby/Backup: available for service but not normally used</td>
-      <td>.8</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>commercial-non-chp</td>
-      <td>Commercial Non-CHP</td>
-      <td>12374</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>10181</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>GEN2</td>
-      <td>Conventional Hydroelectric</td>
-      <td>WAT</td>
-      <td>Water</td>
-      <td>HY</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>.8</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>commercial-non-chp</td>
-      <td>Commercial Non-CHP</td>
-      <td>12374</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>10181</td>
-      <td>Metropolitan Sewerage District</td>
-      <td>GEN3</td>
-      <td>Conventional Hydroelectric</td>
-      <td>WAT</td>
-      <td>Water</td>
-      <td>HY</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>.8</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2019-04</td>
+      <td>2019-02</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>ipp-non-chp</td>
       <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN1</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN2</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN3</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN4</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN5</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>56814</td>
-      <td>Black Creek Renewable Energy LLC</td>
-      <td>57492</td>
-      <td>Sampson County Disposal</td>
-      <td>GEN6</td>
-      <td>Landfill Gas</td>
-      <td>LFG</td>
-      <td>Landfill Gas</td>
-      <td>IC</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>1.6</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61494</td>
-      <td>Radian Generation</td>
-      <td>62168</td>
-      <td>Church Road Solar LLC</td>
-      <td>CHU01</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>5</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61494</td>
-      <td>Radian Generation</td>
-      <td>62167</td>
-      <td>County Home Solar LLC</td>
-      <td>COU01</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>7.5</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2019-05</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>58325</td>
-      <td>New Bern Farm LLC</td>
-      <td>58339</td>
-      <td>New Bern Farm</td>
+      <td>58921</td>
+      <td>Bailey Farm LLC</td>
+      <td>59127</td>
+      <td>Bailey Farm LLC</td>
       <td>1</td>
       <td>Solar Photovoltaic</td>
       <td>SUN</td>
@@ -2107,41 +1814,85 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>MW</td>
     </tr>
     <tr>
-      <th>12</th>
-      <td>2019-04</td>
+      <td>2019-01</td>
       <td>NC</td>
       <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61528</td>
-      <td>Bayboro Solar Farm</td>
-      <td>GEN1</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
+      <td>industrial-chp</td>
+      <td>Industrial CHP</td>
+      <td>58536</td>
+      <td>Smithfield Packaged Meats Corp</td>
+      <td>58575</td>
+      <td>Smithfield Packaged Meats Corp.</td>
+      <td>4</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
       <td>CPLE</td>
       <td>Duke Energy Progress East</td>
       <td>OP</td>
       <td>Operating</td>
-      <td>5</td>
+      <td>2.3</td>
       <td>None</td>
       <td>MW</td>
     </tr>
     <tr>
-      <th>13</th>
-      <td>2019-04</td>
+      <td>2019-01</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>ipp-chp</td>
+      <td>IPP CHP</td>
+      <td>18065</td>
+      <td>Smithfield Packaged Meats Corp.</td>
+      <td>56035</td>
+      <td>Smithfield Packaged Meats Corp.</td>
+      <td>1</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.4</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-01</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>ipp-chp</td>
+      <td>IPP CHP</td>
+      <td>18065</td>
+      <td>Smithfield Packaged Meats Corp.</td>
+      <td>56035</td>
+      <td>Smithfield Packaged Meats Corp.</td>
+      <td>2</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.4</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-01</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>ipp-non-chp</td>
       <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61351</td>
-      <td>Bear Creek Solar</td>
-      <td>GEN1</td>
+      <td>58927</td>
+      <td>Snow Hill Solar 2 LLC</td>
+      <td>59106</td>
+      <td>Snow Hill Solar 2 LLC</td>
+      <td>1</td>
       <td>Solar Photovoltaic</td>
       <td>SUN</td>
       <td>Solar</td>
@@ -2155,176 +1906,260 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>MW</td>
     </tr>
     <tr>
-      <th>14</th>
-      <td>2019-04</td>
+      <td>2019-05</td>
       <td>NC</td>
       <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61561</td>
-      <td>Bladen Solar</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN2</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN3</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN4</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN5</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN6</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN7</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN8</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GEN9</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN10</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN11</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-04</td>
+      <td>SC</td>
+      <td>South Carolina</td>
+      <td>industrial-chp</td>
+      <td>Industrial CHP</td>
+      <td>50006</td>
+      <td>Invista</td>
+      <td>10795</td>
+      <td>Camden South Carolina</td>
       <td>GEN1</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
+      <td>Natural Gas Steam Turbine</td>
+      <td>NG</td>
+      <td>Natural Gas</td>
+      <td>ST</td>
       <td>CPLE</td>
       <td>Duke Energy Progress East</td>
       <td>OP</td>
       <td>Operating</td>
-      <td>50</td>
+      <td>5.5</td>
       <td>None</td>
       <td>MW</td>
     </tr>
     <tr>
-      <th>15</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61283</td>
-      <td>Bladenboro Solar, LLC</td>
-      <td>GEN1</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>4.8</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61352</td>
-      <td>Bondi Solar</td>
-      <td>GEN1</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>5</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>58807</td>
-      <td>Boseman Solar Center LLC</td>
-      <td>BSC1</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>5</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>61060</td>
-      <td>Cypress Creek Renewables</td>
-      <td>61693</td>
-      <td>Buckleberry Solar</td>
-      <td>GEN</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>52.1</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>59673</td>
-      <td>Choco Solar LLC</td>
-      <td>59899</td>
-      <td>Choco Solar, LLC</td>
-      <td>CHOCO</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>5</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>2019-04</td>
-      <td>NC</td>
-      <td>North Carolina</td>
-      <td>ipp-non-chp</td>
-      <td>IPP Non-CHP</td>
-      <td>58819</td>
-      <td>Graham Solar Center LLC</td>
-      <td>58957</td>
-      <td>Graham Solar Center LLC</td>
-      <td>GRAH</td>
-      <td>Solar Photovoltaic</td>
-      <td>SUN</td>
-      <td>Solar</td>
-      <td>PV</td>
-      <td>CPLE</td>
-      <td>Duke Energy Progress East</td>
-      <td>OP</td>
-      <td>Operating</td>
-      <td>4.8</td>
-      <td>None</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>2019-01</td>
+      <td>2019-02</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>industrial-chp</td>
@@ -2347,8 +2182,7 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>MW</td>
     </tr>
     <tr>
-      <th>22</th>
-      <td>2019-01</td>
+      <td>2019-02</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>industrial-chp</td>
@@ -2371,8 +2205,7 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>MW</td>
     </tr>
     <tr>
-      <th>23</th>
-      <td>2019-01</td>
+      <td>2019-02</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>industrial-chp</td>
@@ -2395,8 +2228,7 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>MW</td>
     </tr>
     <tr>
-      <th>24</th>
-      <td>2019-01</td>
+      <td>2019-02</td>
       <td>NC</td>
       <td>North Carolina</td>
       <td>industrial-chp</td>
@@ -2418,8 +2250,124 @@ for df in eia.collect_years_data(start_year=2019, end_year=2020):
       <td>None</td>
       <td>MW</td>
     </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN12</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN13</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN14</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN15</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
+    <tr>
+      <td>2019-05</td>
+      <td>NC</td>
+      <td>North Carolina</td>
+      <td>industrial-non-chp</td>
+      <td>Industrial Non-CHP</td>
+      <td>17449</td>
+      <td>Smithfield Fresh Meats Corp.</td>
+      <td>54823</td>
+      <td>Smithfield Farmland Corp Bladen</td>
+      <td>GN16</td>
+      <td>Petroleum Liquids</td>
+      <td>DFO</td>
+      <td>Disillate Fuel Oil</td>
+      <td>IC</td>
+      <td>CPLE</td>
+      <td>Duke Energy Progress East</td>
+      <td>SB</td>
+      <td>Standby/Backup: available for service but not normally used</td>
+      <td>1.5</td>
+      <td>None</td>
+      <td>MW</td>
+    </tr>
   </tbody>
 </table>
+
 </details>
 
 # Key Instance Variables
