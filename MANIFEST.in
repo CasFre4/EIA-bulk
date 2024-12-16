@@ -1,0 +1,6 @@
+
+recursive-include route_trees *.json
+
+include README.md
+include LICENSE
+include pyproject.toml

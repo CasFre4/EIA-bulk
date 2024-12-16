@@ -336,6 +336,8 @@ class EIABulk:
             self.data = layer['data']
         if multiplier is not None:
             self.multiplier = multiplier
+        elif self.frequency is None:
+            self.multiplier = 1
         elif "hourly" in self.frequency or 'week' in self.frequency or 'daily' in self.frequency:
             self.multiplier = .5
         elif 'monthly' in self.frequency or 'quarterly' in self.frequency:
