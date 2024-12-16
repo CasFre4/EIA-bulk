@@ -47,16 +47,6 @@ Example with
 <summary>Click to view output.</summary>
 
 ```json
-Warning: No frequency variable found. Will default to hourly.
-Warning: No data variable found. Will select all available data variables.
-
-This function will provide information about the available facets if you provide a facet type.
- If you only provide a valid route then it will give you information about the next available path
-or if its an endpoint it will provide information about the available facet types, available data types, frequency types, and sort options.
-
-By default will print result from API. You can change this by setting the form_api variable to False.
-API URL:https://api.eia.gov/v2/electricity/rto/fuel-type-data/?&api_key=api_key_here_1234567890
-
 {
   "response": {
     "id": "fuel-type-data",
@@ -122,13 +112,6 @@ API URL:https://api.eia.gov/v2/electricity/rto/fuel-type-data/?&api_key=api_key_
 <summary>Click to view output.</summary>
 
 ```json
-Warning: You have provided a partial route. You will be able to print route information with the route_endpoints function or by printing the class instance.
-
-WARNING: The route you provided or the other search settings you have provided do not appear to be supported by the data collection API.
- If you would like to use the data API functions regardless it is likely to result in an invalid API call.
-If you believe the route tree is outdated you can run the update_tree() function.
-
-The following are the potential routes/features one can pick from given endpoint: electricity/rto
 {
   "region-data": {
     "facets": {
