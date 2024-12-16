@@ -9,6 +9,7 @@
 - Parse and store data in JSON(limited), DataFrames, Databases.
 - Support for all publicly available EIA data. More information about the EIA API found here: [https://www.eia.gov](https://www.eia.gov/opendata/).
 - Easy-to-use interface for querying and downloading data
+- Extensive error catching for ease of use.
 
 ## Installation
 
